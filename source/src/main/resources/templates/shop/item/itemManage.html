@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>店铺书籍管理系统</title>
+
+    <link th:href="@{/css/bootstrap.min.css}" rel="stylesheet" />
+    <link th:href="@{/font-awesome/css/font-awesome.css}" rel="stylesheet" />
+    <link th:href="@{/css/style.css}" rel="stylesheet" />
+
+    <link th:href="@{/css/plugins/iCheck/custom.css}" rel="stylesheet"/>
+    <link th:href="@{/css/plugins/footable/footable.core.css}" rel="stylesheet"/>
+    <!-- Sweet Alert -->
+    <link th:href="@{/css/plugins/sweetalert/sweetalert.css}" rel="stylesheet"/>
+</head>
+<body>
+
+<div id="wrapper">
+    <nav class="navbar-default navbar-static-side" role="navigation" th:include="@{/shop/nav}::navigation"></nav>
+    <div id="page-wrapper" class="gray-bg">
+        <div class="border-bottom" th:include="@{/shop/header}::headerTop"></div>
+        <div class="row wrapper border-bottom white-bg page-heading" th:fragment="headerNav">
+            <div class="col-lg-10">
+                <h2>商品管理</h2>
+                <ol class="breadcrumb">
+                    <li>
+                        <a th:href="@{/shop/itemManage}">首页</a>
+                    </li>
+                    <li>
+                        <a th:href="@{/shop/itemManage}">商品管理</a>
+                    </li>
+                    <li class="active">
+                        <strong>商品管理</strong>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="wrapper wrapper-content animated fadeInRight">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>添加商品</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content" style="display: block;">
+                            <form th:action="@{/shop/itemManage}" method="post" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-sm-2 m-b-xs">
+                                        <input id="title" name="title" placeholder="商品标题" class="form-control" type="text"/>
+                                    </div>
+
+                                    <div class="col-sm-2 m-b-xs">
+                                        <input id="price" name="price" class="form-control" type="text"placeholder="价格" />
+                                    </div>
+                                    <div class="col-sm-2 m-b-xs">
+                                        <input id="ISBN" name="ISBN"  class="form-control" type="text" placeholder="ISBN"/>
+                                    </div>
+                                    <div class="col-sm-2 m-b-xs">
+                                        <input id="info" name="info"  class="form-control" type="text" placeholder="图书简介"/>
+                                    </div>
+                                    <div class="col-sm-2 m-b-xs">
+                                        <input id="file" name="file"  class="form-control" type="file" placeholder="图书封面"/>
+                                    </div>
+                                    <div class="col-sm-2 m-b-xs">
+                                        <button class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="left" title="" data-original-title="Refresh inbox"><i class="fa fa-plus"></i>&nbsp;&nbsp;&nbsp;&nbsp;新增商品&nbsp;&nbsp;&nbsp;&nbsp;</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>商品列表</h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="table-responsive">
+                                <table class=" table table-hover" data-page-size="10">
+                                    <thead>
+                                    <tr>
+                                        <th width="5%">ID</th>
+                                        <th width="39%">商品标题</th>
+                                        <th width="8%">ISBN</th>
+                                        <th width="8%">价格</th>
+                                        <th width="15%">库存数量</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <!--/*@thymesVar id="itemList" type="java"*/-->
+                                    <tr th:each="item:${session.itemList}">
+                                        <!--/*@thymesVar id="item" type="com.yuhao.bookstore.entity.Book"*/-->
+                                        <td th:text="${item.getBookid()}">Onions</td>
+                                        <td th:text="${item.getBookname()}">Onions</td>
+                                        <td th:text="${item.getBookisbn()}">Onions</td>
+                                        <td th:text="${item.getBookprice()}">Onions</td>
+                                        <td th:text="${item.getBookstock()}">Onions</td>
+                                     
+                                        <td>
+                                            <a th:href="@{'/shop/itemEdit?bookid='+${item.getBookid()}}" title="修改"><i class="fa fa-edit text-navy"></i></a>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;
+                                            <a th:data-id="${item.getBookid()}" href="#" th:onclick="updateState(this.getAttribute('data-id'),2,0);" title="删除"><i class="fa fa-trash-o text-navy"></i></a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                    <tfoot>
+                                    <tr>
+                                        <td colspan="8">
+                                            <ul id="pageHTML" class="pagination pull-right"></ul>
+                                        </td>
+                                    </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" th:include="@{/shop/footer}::copyright"></div>
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script th:src="@{/js/jquery-2.1.1.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/plugins/metisMenu/jquery.metisMenu.js}"></script>
+<script th:src="@{/js/plugins/slimscroll/jquery.slimscroll.min.js}"></script>
+
+<!-- Peity -->
+<script th:src="@{/js/plugins/peity/jquery.peity.min.js}"></script>
+
+<!-- Custom and plugin javascript -->
+<script th:src="@{/js/inspinia.js}"></script>
+<script th:src="@{/js/plugins/pace/pace.min.js}"></script>
+
+<!-- iCheck -->
+<script th:src="@{/js/plugins/iCheck/icheck.min.js}"></script>
+
+<!-- Peity -->
+<script th:src="@{/js/demo/peity-demo.js}"></script>
+
+<!-- FooTable -->
+<script th:src="@{/js/plugins/footable/footable.all.min.js}"></script>
+
+<!-- common -->
+<script th:src="@{/js/common.js}"></script>
+
+<!-- Sweet alert -->
+<script th:src="@{/js/plugins/sweetalert/sweetalert.min.js}"></script>
+<script th:inline="javascript">
+    var pageHTML = [[${pageHTML}]];
+    $(document).ready(function () {
+        $("#pageHTML").html(pageHTML);
+    });
+
+    /*<![CDATA[*/
+    function updateState(id,state,commendState){
+        var deleteTag;
+        if(state==2){
+            deleteTag = confirm("确定删除此条信息?");
+        } else {
+            deleteTag = true;
+        }
+        if(deleteTag){
+            $.ajax({
+                type: "POST",
+                url: "/shop/itemEditState",
+                data:{
+                    "bookid": id,
+                },
+                datatype: "json",
+                success: function(msg){
+                    window.location.reload();
+                },
+                error: function(){
+                    alert("系统异常！");
+                }
+            });
+        }
+    }
+
+    var error = [[${error}]];
+    $(document).ready(function () {
+        if(error!=null){
+            swal({
+                title : "温馨提示",
+                text : error
+            });
+        }
+    });
+    /*]]>*/
+</script>
+
+</body>
+
+</html>

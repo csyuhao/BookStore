@@ -1,0 +1,162 @@
+html,body{
+    background-color: #ebebeb;
+}
+.navbar{
+    margin-bottom: 0%;
+}
+
+.divMiddle{
+    height: 600px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: #ebebeb;
+}
+
+.divBookDetail{
+    margin: 0 auto;
+    height: 550px;
+    width: 1000px;
+}
+
+.divBookDetail-all{
+    width: 100%;
+    margin-top: 20px;
+    height: 550px;
+    float: left;
+}
+
+.divBookDetail-left{
+    width: 45%;
+    height: 550px;
+    background-color: white;
+    float: left;
+}
+
+.divBookDetail-left-imgDiv{
+    height: 500px;
+    margin-top: 20px;
+}
+
+.divBookDetail-left-img{
+    max-height: 90%;
+    width: auto;
+}
+
+.divBookDetail-right{
+    width: 55%;
+    height: 550px;
+    background-color: white;
+    float: left;
+}
+
+.divBookDetail-right-title{
+    width: 90%;
+    min-height: 30px;
+    float: left;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.divBookDetail-right-authorAndPress{
+    width: 90%;
+    min-height: 30px;
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.divBookDetail-right-price{
+    width: 90%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+    background-color: #e5e5e5;
+}
+
+.divBookDetail-right-price div:first-child{
+    width: 58px;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 15px;
+
+    font-size: 14px;
+    color: black;
+}
+
+.divBookDetail-right-price div:last-child{
+    width: 58px;
+    height: 50px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 0px;
+
+    font-size: 20px;
+    color: red;
+}
+
+.divBookDetail-right-address{
+    width: 110%;
+    height: 30px;
+    float: left;
+    margin-top: 15px;
+}
+
+.divBookDetail-right-address div:first-child{
+    width: 65px;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 0px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.divBookDetail-right-address div:last-child{
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 0px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.divBookDetail-right-purchase{
+    width: 90%;
+    min-height: 50px;
+    float: left;
+    margin-top: 15px;
+}
+
+.divBookDetail-right-purchase div:first-child{
+    width: 100px;
+    height: 40px;
+    background-color: #c9302c;
+    float: left;
+
+    color: white;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 8px;
+
+    cursor: pointer;
+}
+
+.divBookDetail-right-purchase div:last-child{
+    width: 100px;
+    height: 40px;
+    border: 1px solid red;
+    float: left;
+    margin-left: 20px;
+
+    color: red;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-top: 8px;
+
+    cursor: pointer;
+}

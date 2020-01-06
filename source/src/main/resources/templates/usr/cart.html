@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>图书详情</title>
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link th:href="@{/css/cart.css}" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <link th:href="@{/css/plugins/sweetalert/sweetalert.css}" rel="stylesheet"/>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" th:href="@{/usr/index}">网上书店</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right information">
+                <li class="nav-login-title"><a th:href="@{/usr/login}">登录</a></li>
+                <li class="nav-login-registor"><a th:href="@{/usr/register}">注册</a></li>
+                <li><a th:href="@{/usr/cart}"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                <li><a th:href="@{/usr/count}"><span class="glyphicon glyphicon-list-alt"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="divMiddle">
+    <div class="divCart">
+        <div class="divCart-Num">
+            全部商品
+        </div>
+        <div class="divCartItemTitle">
+
+            <div>商品</div>
+            <div>单价</div>
+            <div>数量</div>
+            <div>小计</div>
+            <div>操作</div>
+
+        </div>
+
+        <div class="divCart-cleanCart">
+            <div class="divCart-cleanCart-checkAll">
+                <input type="checkbox" name="checkAll">&nbsp;&nbsp;全选
+            </div>
+            <div class="divCart-cleanCart-buttonDiv">
+                <span>共￥0元</span>
+                <button type="button" class="btn btn-primary" onclick="count()">结算</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:src="@{/js/jquery-3.3.1.min.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+<script th:src="@{/js/cart.js}"></script>
+<!-- Sweet alert -->
+<script th:src="@{/js/plugins/sweetalert/sweetalert.min.js}"></script>
+</body>
+</html>

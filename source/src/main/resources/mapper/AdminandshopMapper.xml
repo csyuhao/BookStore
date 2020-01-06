@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuhao.bookstore.mapper.AdminandshopMapper">
+  <resultMap id="BaseResultMap" type="com.yuhao.bookstore.entity.Adminandshop">
+    <!--@mbg.generated-->
+    <!--@Table adminandshop-->
+    <id column="adminId" jdbcType="VARCHAR" property="adminid" />
+    <id column="shopId" jdbcType="VARCHAR" property="shopid" />
+    <result column="update" jdbcType="VARCHAR" property="update" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    adminId, shopId, `update`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="map" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from adminandshop
+    where adminId = #{adminid,jdbcType=VARCHAR}
+      and shopId = #{shopid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="map">
+    <!--@mbg.generated-->
+    delete from adminandshop
+    where adminId = #{adminid,jdbcType=VARCHAR}
+      and shopId = #{shopid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yuhao.bookstore.entity.Adminandshop">
+    <!--@mbg.generated-->
+    insert into adminandshop (adminId, shopId, `update`
+      )
+    values (#{adminid,jdbcType=VARCHAR}, #{shopid,jdbcType=VARCHAR}, #{update,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yuhao.bookstore.entity.Adminandshop">
+    <!--@mbg.generated-->
+    insert into adminandshop
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="adminid != null">
+        adminId,
+      </if>
+      <if test="shopid != null">
+        shopId,
+      </if>
+      <if test="update != null">
+        `update`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="adminid != null">
+        #{adminid,jdbcType=VARCHAR},
+      </if>
+      <if test="shopid != null">
+        #{shopid,jdbcType=VARCHAR},
+      </if>
+      <if test="update != null">
+        #{update,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yuhao.bookstore.entity.Adminandshop">
+    <!--@mbg.generated-->
+    update adminandshop
+    <set>
+      <if test="update != null">
+        `update` = #{update,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where adminId = #{adminid,jdbcType=VARCHAR}
+      and shopId = #{shopid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yuhao.bookstore.entity.Adminandshop">
+    <!--@mbg.generated-->
+    update adminandshop
+    set `update` = #{update,jdbcType=VARCHAR}
+    where adminId = #{adminid,jdbcType=VARCHAR}
+      and shopId = #{shopid,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,748 @@
+STATUS | wrapper  | 2019/12/28 16:15:11 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:15:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:15:14 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:15:14 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:15:14 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:15:14 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:15:15 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:15:15 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:15:15 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:15:15 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:15:15 | 
+INFO   | jvm 1    | 2019/12/28 16:15:16 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:15:16 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:15:16 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:15:16 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:15:16 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 16:15:16 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:15:17 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 16:16:48 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:16:49 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:16:51 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:19:29 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 16:19:29 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:19:29 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:19:29 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:19:30 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:19:30 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:19:30 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:19:30 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:19:30 | 
+INFO   | jvm 1    | 2019/12/28 16:19:31 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:19:31 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:19:31 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:19:31 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:19:31 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 16:19:31 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:19:32 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 16:20:27 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:20:28 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:20:30 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:36:56 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 16:36:59 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 16:36:59 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:36:59 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:36:59 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:37:00 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:37:00 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:37:00 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:37:00 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:37:00 | 
+INFO   | jvm 1    | 2019/12/28 16:37:01 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:37:01 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:37:01 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:37:01 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:37:01 | WARNING: All illegal access operations will be denied in a future release
+STATUS | wrapper  | 2019/12/28 16:37:04 | Mycat-server started.
+INFO   | jvm 1    | 2019/12/28 16:37:22 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:50:01 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:50:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:50:04 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:50:04 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:50:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:50:04 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:50:04 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:50:04 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:50:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:50:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:50:05 | 
+INFO   | jvm 1    | 2019/12/28 16:50:05 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:50:05 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:50:05 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:50:05 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:50:05 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 16:50:05 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:50:07 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 16:53:38 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:53:40 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:53:41 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:53:41 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:53:41 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:53:42 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:53:42 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:53:42 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:53:42 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:53:42 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:53:42 | 
+INFO   | jvm 1    | 2019/12/28 16:53:43 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:53:43 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:53:43 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:53:43 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:53:43 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 16:53:43 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:53:45 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 16:55:36 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:55:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 16:55:39 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 16:55:39 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 16:55:39 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 16:55:39 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 16:55:39 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 16:55:39 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 16:55:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 16:55:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 16:55:39 | 
+INFO   | jvm 1    | 2019/12/28 16:55:40 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 16:55:40 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 16:55:40 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 16:55:40 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 16:55:40 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 16:55:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 16:55:42 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 17:05:24 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 17:05:25 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 17:05:27 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 19:57:00 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 19:57:00 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 19:57:00 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 19:57:00 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 19:57:00 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 19:57:00 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 19:57:01 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 19:57:01 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 19:57:01 | 
+INFO   | jvm 1    | 2019/12/28 19:57:02 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 19:57:02 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 19:57:02 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 19:57:02 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 19:57:02 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 19:57:02 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 19:57:04 | Mycat-server started.
+STATUS | wrapper  | 2019/12/28 20:00:28 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 20:00:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/28 20:00:31 | Mycat-server stopped.
+STATUS | wrapper  | 2019/12/28 20:01:30 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 20:01:31 | The Mycat-server service was not running.
+STATUS | wrapper  | 2019/12/28 20:01:31 | Starting the Mycat-server service...
+STATUS | wrapper  | 2019/12/28 20:01:31 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/28 20:01:31 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/28 20:01:31 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/28 20:01:31 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/28 20:01:32 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/28 20:01:32 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/28 20:01:32 | 
+INFO   | jvm 1    | 2019/12/28 20:01:32 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/28 20:01:32 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/28 20:01:32 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/28 20:01:32 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/28 20:01:32 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/28 20:01:33 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/28 20:01:34 | Mycat-server started.
+STATUS | wrapper  | 2019/12/29 09:47:58 | Machine is shutting down.
+STATUS | wrapper  | 2019/12/29 09:48:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2019/12/29 09:48:23 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/29 09:48:23 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/29 09:48:23 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/29 09:48:23 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/29 09:48:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/29 09:48:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/29 09:48:26 | 
+INFO   | jvm 1    | 2019/12/29 09:48:27 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/29 09:48:27 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/29 09:48:27 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/29 09:48:27 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/29 09:48:27 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/29 09:49:09 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2019/12/31 23:45:36 | --> Wrapper Started as Service
+STATUS | wrapper  | 2019/12/31 23:45:37 | Launching a JVM...
+INFO   | jvm 1    | 2019/12/31 23:45:37 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2019/12/31 23:45:37 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2019/12/31 23:45:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2019/12/31 23:45:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2019/12/31 23:45:39 | 
+INFO   | jvm 1    | 2019/12/31 23:45:40 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2019/12/31 23:45:40 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2019/12/31 23:45:40 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2019/12/31 23:45:40 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2019/12/31 23:45:40 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2019/12/31 23:45:41 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 19:27:11 | Machine is shutting down.
+STATUS | wrapper  | 2020/01/03 19:27:13 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 19:27:37 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 19:27:38 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 19:27:38 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 19:27:38 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 19:27:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 19:27:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 19:27:41 | 
+INFO   | jvm 1    | 2020/01/03 19:27:42 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 19:27:42 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 19:27:42 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 19:27:42 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 19:27:42 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 19:28:12 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 19:37:32 | Machine is shutting down.
+STATUS | wrapper  | 2020/01/03 19:37:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 19:37:54 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 19:37:54 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 19:37:54 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 19:37:54 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 19:37:57 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 19:37:57 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 19:37:57 | 
+INFO   | jvm 1    | 2020/01/03 19:37:58 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 19:37:58 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 19:37:58 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 19:37:58 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 19:37:58 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 19:38:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+FATAL  | wrapper  | 2020/01/03 21:45:45 | OpenSCManager failed - 拒绝访问。 (0x5)
+ERROR  | wrapper  | 2020/01/03 21:46:05 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2020/01/03 21:46:17 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:46:19 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 21:46:20 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 21:46:24 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:46:25 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:46:25 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:46:25 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:46:25 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:46:26 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:46:26 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:46:26 | 
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 
+INFO   | jvm 1    | 2020/01/03 21:46:27 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:46:27 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.MycatServer.<init>(MycatServer.java:170)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:116)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	... 7 more
+INFO   | jvm 1    | 2020/01/03 21:46:27 | Caused by: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.emptyElement(XMLDTDValidator.java:749)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1377)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/01/03 21:46:27 | 	... 13 more
+STATUS | wrapper  | 2020/01/03 21:46:29 | <-- Wrapper Stopped
+INFO   | wrapper  | 2020/01/03 21:46:30 | Waiting to start...
+ERROR  | wrapper  | 2020/01/03 21:46:31 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2020/01/03 21:48:02 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:48:02 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:48:03 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:48:03 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:48:03 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:48:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:48:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:48:03 | 
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 
+INFO   | jvm 1    | 2020/01/03 21:48:04 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:48:04 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.MycatServer.<init>(MycatServer.java:170)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:116)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	... 7 more
+INFO   | jvm 1    | 2020/01/03 21:48:04 | Caused by: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.emptyElement(XMLDTDValidator.java:749)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1377)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/01/03 21:48:04 | 	... 13 more
+STATUS | wrapper  | 2020/01/03 21:48:06 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2020/01/03 21:48:07 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2020/01/03 21:50:40 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:50:40 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:50:40 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:50:40 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:50:40 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:50:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:50:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 
+INFO   | jvm 1    | 2020/01/03 21:50:41 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:50:41 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.MycatServer.<init>(MycatServer.java:170)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:116)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	... 7 more
+INFO   | jvm 1    | 2020/01/03 21:50:41 | Caused by: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.emptyElement(XMLDTDValidator.java:749)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1377)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/01/03 21:50:41 | 	... 13 more
+STATUS | wrapper  | 2020/01/03 21:50:43 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2020/01/03 21:50:45 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2020/01/03 21:51:01 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:51:01 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:51:02 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:51:02 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:51:02 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:51:02 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:51:02 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:51:02 | 
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 
+INFO   | jvm 1    | 2020/01/03 21:51:03 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:51:03 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | Caused by: io.mycat.config.util.ConfigException: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:126)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:83)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.<init>(XMLSchemaLoader.java:87)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:76)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.MycatServer.<init>(MycatServer.java:170)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:116)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	... 7 more
+INFO   | jvm 1    | 2020/01/03 21:51:03 | Caused by: org.xml.sax.SAXParseException; lineNumber: 28; columnNumber: 61; 必须声明元素类型 "dateNode"。
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:204)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.error(ErrorHandlerWrapper.java:135)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:396)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:284)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.handleStartElement(XMLDTDValidator.java:1835)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.dtd.XMLDTDValidator.emptyElement(XMLDTDValidator.java:749)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1377)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:246)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at java.xml/javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.util.ConfigUtil.getDocument(ConfigUtil.java:115)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	at io.mycat.config.loader.xml.XMLSchemaLoader.load(XMLSchemaLoader.java:116)
+INFO   | jvm 1    | 2020/01/03 21:51:03 | 	... 13 more
+STATUS | wrapper  | 2020/01/03 21:51:05 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2020/01/03 21:51:06 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2020/01/03 21:51:52 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:51:52 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:51:52 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:51:53 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:51:53 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:51:53 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:51:53 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:51:53 | 
+INFO   | jvm 1    | 2020/01/03 21:51:54 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 21:51:54 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 21:51:54 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 21:51:54 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 21:51:54 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 21:51:54 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 21:51:55 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 21:54:28 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:54:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 21:54:31 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 21:54:32 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 21:54:32 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 21:54:32 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 21:54:32 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 21:54:32 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 21:54:33 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 21:54:33 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 21:54:33 | 
+INFO   | jvm 1    | 2020/01/03 21:54:34 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 21:54:34 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 21:54:34 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 21:54:34 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 21:54:34 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 21:54:34 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 21:54:35 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 22:04:09 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:04:11 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 22:04:12 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 22:04:33 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:04:33 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:04:34 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:04:34 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:04:34 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:04:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:04:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:04:34 | 
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 
+INFO   | jvm 1    | 2020/01/03 22:04:35 | WrapperSimpleApp: Encountered an error running main: java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 22:04:35 | java.lang.ExceptionInInitializerError
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.MycatStartup.main(MycatStartup.java:53)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at org.tanukisoftware.wrapper.WrapperSimpleApp.run(WrapperSimpleApp.java:240)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at java.base/java.lang.Thread.run(Thread.java:834)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | Caused by: io.mycat.config.util.ConfigException: SelfCheck###  schema bookstore refered by user root is not exist!
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.config.ConfigInitializer.selfChecking0(ConfigInitializer.java:142)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.config.ConfigInitializer.<init>(ConfigInitializer.java:118)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.config.MycatConfig.<init>(MycatConfig.java:72)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.MycatServer.<init>(MycatServer.java:170)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	at io.mycat.MycatServer.<clinit>(MycatServer.java:116)
+INFO   | jvm 1    | 2020/01/03 22:04:35 | 	... 7 more
+STATUS | wrapper  | 2020/01/03 22:04:37 | <-- Wrapper Stopped
+ERROR  | wrapper  | 2020/01/03 22:04:38 | The Mycat-server service was launched, but failed to start.
+STATUS | wrapper  | 2020/01/03 22:06:32 | The Mycat-server service was not running.
+STATUS | wrapper  | 2020/01/03 22:06:34 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:06:34 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:06:34 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:06:34 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:06:34 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:06:35 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:06:35 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:06:35 | 
+INFO   | jvm 1    | 2020/01/03 22:06:35 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 22:06:35 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 22:06:35 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 22:06:35 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 22:06:35 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 22:06:36 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 22:06:37 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 22:46:06 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:46:08 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 22:46:09 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 22:46:22 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:46:22 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:46:23 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:46:23 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:46:23 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:46:23 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:46:23 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:46:23 | 
+INFO   | jvm 1    | 2020/01/03 22:46:24 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 22:46:24 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 22:46:24 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 22:46:24 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 22:46:24 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 22:46:24 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 22:46:25 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 22:49:48 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:49:50 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 22:49:51 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 22:49:53 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:49:53 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:49:53 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:49:53 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:49:53 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:49:53 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:49:53 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:49:53 | 
+INFO   | jvm 1    | 2020/01/03 22:49:54 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 22:49:54 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 22:49:54 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 22:49:54 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 22:49:54 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 22:49:55 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 22:49:56 | Mycat-server started.
+ERROR  | wrapper  | 2020/01/03 22:55:59 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2020/01/03 22:56:01 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:56:02 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 22:56:04 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 22:56:11 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:56:11 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:56:12 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:56:12 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:56:12 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:56:12 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:56:12 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:56:12 | 
+INFO   | jvm 1    | 2020/01/03 22:56:13 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 22:56:13 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 22:56:13 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 22:56:13 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 22:56:13 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 22:56:13 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 22:56:14 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 22:59:28 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:59:29 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 22:59:31 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 22:59:34 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 22:59:34 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 22:59:34 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 22:59:34 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 22:59:34 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 22:59:34 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 22:59:34 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 22:59:34 | 
+INFO   | jvm 1    | 2020/01/03 22:59:35 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 22:59:35 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 22:59:35 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 22:59:35 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 22:59:35 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 22:59:35 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 22:59:37 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 23:01:47 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:01:48 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 23:01:50 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 23:01:51 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:01:51 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 23:01:52 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 23:01:52 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 23:01:52 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 23:01:52 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 23:01:52 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 23:01:52 | 
+INFO   | jvm 1    | 2020/01/03 23:01:53 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 23:01:53 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 23:01:53 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 23:01:53 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 23:01:53 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 23:01:53 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 23:01:54 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 23:11:38 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:11:39 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 23:11:41 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 23:12:28 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:12:28 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 23:12:28 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 23:12:29 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 23:12:29 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 23:12:29 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 23:12:29 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 23:12:29 | 
+INFO   | jvm 1    | 2020/01/03 23:12:30 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 23:12:30 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 23:12:30 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 23:12:30 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 23:12:30 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 23:12:30 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 23:12:31 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 23:14:33 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:14:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 23:14:36 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 23:14:38 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:14:38 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 23:14:38 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 23:14:38 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 23:14:38 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 23:14:39 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 23:14:39 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 23:14:39 | 
+INFO   | jvm 1    | 2020/01/03 23:14:39 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 23:14:39 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 23:14:39 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 23:14:39 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 23:14:39 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 23:14:40 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 23:14:41 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 23:19:00 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:19:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 23:19:03 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 23:22:04 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:22:04 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 23:22:04 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 23:22:04 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 23:22:04 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 23:22:05 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 23:22:05 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 23:22:05 | 
+INFO   | jvm 1    | 2020/01/03 23:22:05 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 23:22:05 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 23:22:05 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 23:22:05 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 23:22:05 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 23:22:06 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 23:22:07 | Mycat-server started.
+STATUS | wrapper  | 2020/01/03 23:23:11 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:23:12 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/03 23:23:14 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/03 23:23:15 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/03 23:23:15 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/03 23:23:16 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/03 23:23:16 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/03 23:23:16 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/03 23:23:16 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/03 23:23:16 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/03 23:23:16 | 
+INFO   | jvm 1    | 2020/01/03 23:23:17 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/03 23:23:17 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/03 23:23:17 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/03 23:23:17 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/03 23:23:17 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/03 23:23:17 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/03 23:23:18 | Mycat-server started.
+STATUS | wrapper  | 2020/01/04 11:00:54 | Machine is shutting down.
+STATUS | wrapper  | 2020/01/04 11:00:56 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/04 11:01:15 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/04 11:01:15 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/04 11:01:15 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/04 11:01:15 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/04 11:01:18 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/04 11:01:18 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/04 11:01:18 | 
+INFO   | jvm 1    | 2020/01/04 11:01:19 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/04 11:01:19 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/04 11:01:19 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/04 11:01:19 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/04 11:01:19 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/04 11:01:25 | MyCAT Server startup successfully. see logs in logs/mycat.log
+FATAL  | wrapper  | 2020/01/04 11:03:19 | OpenSCManager failed - 拒绝访问。 (0x5)
+FATAL  | wrapper  | 2020/01/04 11:03:30 | OpenSCManager failed - 拒绝访问。 (0x5)
+ERROR  | wrapper  | 2020/01/04 11:03:52 | The Mycat-server service is already running with status: RUNNING
+STATUS | wrapper  | 2020/01/04 11:59:33 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/04 11:59:35 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/04 11:59:37 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/04 11:59:41 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/04 11:59:41 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/04 11:59:41 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/04 11:59:41 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/04 11:59:41 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/04 11:59:42 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/04 11:59:42 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/04 11:59:42 | 
+INFO   | jvm 1    | 2020/01/04 11:59:43 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/04 11:59:43 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/04 11:59:43 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/04 11:59:43 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/04 11:59:43 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/04 11:59:44 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/04 11:59:45 | Mycat-server started.
+STATUS | wrapper  | 2020/01/04 15:06:42 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/04 15:06:43 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/04 15:06:45 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/04 15:06:49 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/04 15:06:49 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/04 15:06:49 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/04 15:06:50 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/04 15:06:50 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/04 15:06:50 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/04 15:06:50 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/04 15:06:50 | 
+INFO   | jvm 1    | 2020/01/04 15:06:51 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/04 15:06:51 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/04 15:06:51 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/04 15:06:51 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/04 15:06:51 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/04 15:06:51 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/04 15:06:52 | Mycat-server started.
+STATUS | wrapper  | 2020/01/05 20:05:36 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/05 20:05:38 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/05 20:05:39 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/05 20:05:43 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/05 20:05:43 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/05 20:05:43 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/05 20:05:43 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/05 20:05:43 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/05 20:05:44 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/05 20:05:44 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/05 20:05:44 | 
+INFO   | jvm 1    | 2020/01/05 20:05:45 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/05 20:05:45 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/05 20:05:45 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/05 20:05:45 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/05 20:05:45 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/05 20:05:46 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/05 20:05:47 | Mycat-server started.
+STATUS | wrapper  | 2020/01/06 11:16:36 | Stopping the Mycat-server service...
+STATUS | wrapper  | 2020/01/06 11:16:37 | <-- Wrapper Stopped
+STATUS | wrapper  | 2020/01/06 11:16:39 | Mycat-server stopped.
+STATUS | wrapper  | 2020/01/06 11:41:03 | Starting the Mycat-server service...
+ERROR  | wrapper  | 2020/01/06 11:41:03 | Unable to start the service - 系统找不到指定的文件。 (0x2)
+STATUS | wrapper  | 2020/01/06 11:41:39 | Starting the Mycat-server service...
+STATUS | wrapper  | 2020/01/06 11:41:39 | --> Wrapper Started as Service
+STATUS | wrapper  | 2020/01/06 11:41:39 | Launching a JVM...
+INFO   | jvm 1    | 2020/01/06 11:41:40 | Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+INFO   | jvm 1    | 2020/01/06 11:41:40 | Java HotSpot(TM) 64-Bit Server VM warning: Option AggressiveOpts was deprecated in version 11.0 and will likely be removed in a future release.
+INFO   | jvm 1    | 2020/01/06 11:41:41 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2020/01/06 11:41:41 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2020/01/06 11:41:41 | 
+INFO   | jvm 1    | 2020/01/06 11:41:42 | WARNING: An illegal reflective access operation has occurred
+INFO   | jvm 1    | 2020/01/06 11:41:42 | WARNING: Illegal reflective access by io.mycat.memory.unsafe.Platform (file:/C:/Users/csyuh/Desktop/mycat/lib/Mycat-server-1.6.5-release.jar) to method java.nio.Bits.unaligned()
+INFO   | jvm 1    | 2020/01/06 11:41:42 | WARNING: Please consider reporting this to the maintainers of io.mycat.memory.unsafe.Platform
+INFO   | jvm 1    | 2020/01/06 11:41:42 | WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+INFO   | jvm 1    | 2020/01/06 11:41:42 | WARNING: All illegal access operations will be denied in a future release
+INFO   | jvm 1    | 2020/01/06 11:41:42 | MyCAT Server startup successfully. see logs in logs/mycat.log
+STATUS | wrapper  | 2020/01/06 11:41:43 | Mycat-server started.

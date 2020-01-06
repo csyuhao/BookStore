@@ -1,0 +1,155 @@
+html,body{
+    background-color: #ebebeb;
+}
+.navbar{
+    margin-bottom: 0%;
+}
+
+.divMiddle{
+    height: 600px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: #ebebeb;
+}
+
+.divOrderDetail{
+    margin: 0 auto;
+    height: 550px;
+    width: 1000px;
+}
+
+.divOrderDetail-all{
+    width: 100%;
+    margin-top: 20px;
+    height: 550px;
+    float: left;
+}
+
+.divOrderDetail-left{
+    width: 45%;
+    height: 550px;
+    background-color: white;
+    float: left;
+}
+
+.divOrderDetail-left-imgDiv{
+    height: 500px;
+    margin-top: 20px;
+}
+
+.divOrderDetail-left-img{
+    max-height: 90%;
+    width: auto;
+}
+
+.divOrderDetail-right{
+    width: 55%;
+    height: 550px;
+    background-color: white;
+    float: left;
+}
+
+.divOrderDetail-right-title{
+    width: 90%;
+    min-height: 30px;
+    float: left;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.divOrderDetail-right-authorAndPress{
+    width: 90%;
+    min-height: 30px;
+    float: left;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.divOrderDetail-right-price{
+    width: 90%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+    background-color: #e5e5e5;
+}
+
+.divOrderDetail-right-price div:first-child{
+    width: 15%;
+    height: 50%;
+    float: left;
+    padding-top: 12px;
+    padding-left: 15px;
+
+    font-size: 14px;
+    color: black;
+}
+
+.divOrderDetail-right-price div:nth-child(2){
+    width: 85%;
+    height: 50%;
+    float: left;
+    padding-top: 8px;
+    padding-left: 0px;
+
+    font-size: 20px;
+    color: red;
+}
+
+.divOrderDetail-right-price div:nth-child(3){
+    width: 15%;
+    height: 50%;
+    float: left;
+    padding-top: 12px;
+    padding-left: 15px;
+
+    font-size: 14px;
+    color: black;
+}
+
+.divOrderDetail-right-price div:last-child{
+    width: 85%;
+    height: 50%;
+    float: left;
+    padding-top: 8px;
+    padding-left: 15px;
+
+    font-size: 20px;
+    color: red;
+}
+
+.divOrderDetail-right-address{
+    width: 90%;
+    height: 30px;
+    float: left;
+    margin-top: 15px;
+}
+
+.divOrderDetail-right-address div:first-child{
+    width: 65px;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 0px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.divOrderDetail-right-address div:last-child{
+    width: 58px;
+    height: 50px;
+    float: left;
+    margin-top: 12px;
+    margin-left: 0px;
+
+    font-size: 15px;
+    color: black;
+}
+
+.divOrderDetail-right-purchase{
+    width: 90%;
+    min-height: 50px;
+    float: left;
+    margin-top: 15px;
+}

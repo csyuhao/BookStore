@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuhao.bookstore.mapper.BookMapper">
+  <resultMap id="BaseResultMap" type="com.yuhao.bookstore.entity.Book">
+    <!--@mbg.generated-->
+    <!--@Table book-->
+    <id column="bookId" jdbcType="VARCHAR" property="bookid" />
+    <result column="bookName" jdbcType="VARCHAR" property="bookname" />
+    <result column="bookISBN" jdbcType="VARCHAR" property="bookisbn" />
+    <result column="bookInfor" jdbcType="VARCHAR" property="bookinfor" />
+    <result column="bookPrice" jdbcType="FLOAT" property="bookprice" />
+    <result column="bookShopId" jdbcType="VARCHAR" property="bookshopid" />
+    <result column="bookStock" jdbcType="INTEGER" property="bookstock" />
+    <result column="bookImage" jdbcType="VARCHAR" property="bookimage" />
+    <result column="bookdeleted" jdbcType="BOOLEAN" property="bookdeleted" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    bookId, bookName, bookISBN, bookInfor, bookPrice, bookShopId, bookStock, bookImage, 
+    bookdeleted
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from book
+    where bookId = #{bookid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    <!--@mbg.generated-->
+    delete from book
+    where bookId = #{bookid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" keyColumn="bookId" keyProperty="bookid" parameterType="com.yuhao.bookstore.entity.Book" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into book (bookId, bookName, bookISBN, bookInfor,
+      bookPrice, bookShopId, bookStock, 
+      bookImage, bookdeleted)
+    values (#{bookid,jdbcType=VARCHAR}, #{bookname,jdbcType=VARCHAR}, #{bookisbn,jdbcType=VARCHAR}, #{bookinfor,jdbcType=VARCHAR},
+      #{bookprice,jdbcType=FLOAT}, #{bookshopid,jdbcType=VARCHAR}, #{bookstock,jdbcType=INTEGER}, 
+      #{bookimage,jdbcType=VARCHAR}, #{bookdeleted,jdbcType=BOOLEAN})
+  </insert>
+  <insert id="insertSelective" keyColumn="bookId" keyProperty="bookid" parameterType="com.yuhao.bookstore.entity.Book" useGeneratedKeys="true">
+    <!--@mbg.generated-->
+    insert into book
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bookname != null">
+        bookName,
+      </if>
+      <if test="bookisbn != null">
+        bookISBN,
+      </if>
+      <if test="bookinfor != null">
+        bookInfor,
+      </if>
+      <if test="bookprice != null">
+        bookPrice,
+      </if>
+      <if test="bookshopid != null">
+        bookShopId,
+      </if>
+      <if test="bookstock != null">
+        bookStock,
+      </if>
+      <if test="bookimage != null">
+        bookImage,
+      </if>
+      <if test="bookdeleted != null">
+        bookdeleted,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bookname != null">
+        #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="bookisbn != null">
+        #{bookisbn,jdbcType=VARCHAR},
+      </if>
+      <if test="bookinfor != null">
+        #{bookinfor,jdbcType=VARCHAR},
+      </if>
+      <if test="bookprice != null">
+        #{bookprice,jdbcType=FLOAT},
+      </if>
+      <if test="bookshopid != null">
+        #{bookshopid,jdbcType=VARCHAR},
+      </if>
+      <if test="bookstock != null">
+        #{bookstock,jdbcType=INTEGER},
+      </if>
+      <if test="bookimage != null">
+        #{bookimage,jdbcType=VARCHAR},
+      </if>
+      <if test="bookdeleted != null">
+        #{bookdeleted,jdbcType=BOOLEAN},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yuhao.bookstore.entity.Book">
+    <!--@mbg.generated-->
+    update book
+    <set>
+      <if test="bookname != null">
+        bookName = #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="bookisbn != null">
+        bookISBN = #{bookisbn,jdbcType=VARCHAR},
+      </if>
+      <if test="bookinfor != null">
+        bookInfor = #{bookinfor,jdbcType=VARCHAR},
+      </if>
+      <if test="bookprice != null">
+        bookPrice = #{bookprice,jdbcType=FLOAT},
+      </if>
+      <if test="bookshopid != null">
+        bookShopId = #{bookshopid,jdbcType=VARCHAR},
+      </if>
+      <if test="bookstock != null">
+        bookStock = #{bookstock,jdbcType=INTEGER},
+      </if>
+      <if test="bookimage != null">
+        bookImage = #{bookimage,jdbcType=VARCHAR},
+      </if>
+      <if test="bookdeleted != null">
+        bookdeleted = #{bookdeleted,jdbcType=BOOLEAN},
+      </if>
+    </set>
+    where bookId = #{bookid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yuhao.bookstore.entity.Book">
+    <!--@mbg.generated-->
+    update book
+    set bookName = #{bookname,jdbcType=VARCHAR},
+      bookISBN = #{bookisbn,jdbcType=VARCHAR},
+      bookInfor = #{bookinfor,jdbcType=VARCHAR},
+      bookPrice = #{bookprice,jdbcType=FLOAT},
+      bookShopId = #{bookshopid,jdbcType=VARCHAR},
+      bookStock = #{bookstock,jdbcType=INTEGER},
+      bookImage = #{bookimage,jdbcType=VARCHAR},
+      bookdeleted = #{bookdeleted,jdbcType=BOOLEAN}
+    where bookId = #{bookid,jdbcType=VARCHAR}
+  </update>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-01-->
+  <select id="findAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from book
+    </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <select id="findAllByBookshopid" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from book
+    where bookShopId=#{bookshopid,jdbcType=VARCHAR}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <select id="findAllByBookshopidAndBookdeletedFalse" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from book
+    where bookShopId=#{bookshopid,jdbcType=VARCHAR} and bookdeleted = false
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <update id="updateBookdeletedByBookid">
+    update book
+    set bookdeleted=#{updatedBookdeleted,jdbcType=BOOLEAN}
+    where bookId=#{bookid,jdbcType=VARCHAR}
+  </update>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <select id="selectOneByBookid" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from book
+    where bookId=#{bookid,jdbcType=VARCHAR}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <update id="updateByBookid">
+    update book
+    <set>
+      <if test="updated.bookid != null">
+        bookId = #{updated.bookid,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookname != null">
+        bookName = #{updated.bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookisbn != null">
+        bookISBN = #{updated.bookisbn,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookinfor != null">
+        bookInfor = #{updated.bookinfor,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookprice != null">
+        bookPrice = #{updated.bookprice,jdbcType=FLOAT},
+      </if>
+      <if test="updated.bookshopid != null">
+        bookShopId = #{updated.bookshopid,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookstock != null">
+        bookStock = #{updated.bookstock,jdbcType=INTEGER},
+      </if>
+      <if test="updated.bookimage != null">
+        bookImage = #{updated.bookimage,jdbcType=VARCHAR},
+      </if>
+      <if test="updated.bookdeleted != null">
+        bookdeleted = #{updated.bookdeleted,jdbcType=BOOLEAN},
+      </if>
+    </set>
+    where bookId=#{bookid,jdbcType=VARCHAR}
+  </update>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-05-->
+  <select id="findBookstockByBookid" resultType="java.lang.Integer">
+        select bookStock
+        from book
+        where bookId=#{bookid,jdbcType=VARCHAR}
+    </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-05-->
+  <select id="findOneBookstockByBookid" resultType="java.lang.Integer">
+    select bookStock
+    from book
+    where bookId=#{bookid,jdbcType=VARCHAR}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-06-->
+  <select id="findAllByBookdeletedFalse" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from book
+        where bookdeleted = false
+    </select>
+</mapper>

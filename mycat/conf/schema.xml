@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<!DOCTYPE mycat:schema SYSTEM "schema.dtd">
+<mycat:schema xmlns:mycat="http://io.mycat/">
+
+	<schema name="bookstore" checkSQLschema="false" sqlMaxLimit="100">
+		<!-- auto sharding by id (long) -->
+		<table name="shop" primaryKey="shopId" dataNode="dn1,dn2,dn3" rule="sharding-by-intfile">
+			<childTable name="adminandshop" primaryKey="adminId" joinKey="shopId" parentKey="shopId" />
+			<childTable name="book" primaryKey="bookId" joinKey="bookShopId" parentKey="shopId">
+				<childTable  name="bookpurchase" primaryKey="orderNumber" joinKey="bookId" parentKey="bookId" />
+			</childTable>
+		</table>
+		<!-- admin 表变化不大且数据量较小 P98-->
+		<table name="admin" primaryKey="adminId" type="global" dataNode="dn1,dn2,dn3" />
+		<table name="consumer" primaryKey="csuTel" dataNode="dn1,dn2,dn3" rule="mod-long">
+			<childTable name="adminandconsumer" primaryKey="adminId" joinKey="csuTel" parentKey="csuTel" />
+		</table>
+	</schema>
+	<!-- <dataNode name="dn1$0-743" dataHost="localhost1" database="db$0-743"
+		/> -->
+
+	<dataNode name="dn1" dataHost="db1" database="bookstore" />
+	<dataHost name="db1" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM1" url="127.0.0.1:3307" user="root" password="yuhao123">
+			<!-- can have multi read hosts -->
+			<readHost host="hostS1" url="127.0.0.1:3307" user="root" password="yuhao123" />
+		</writeHost>
+	</dataHost>
+	
+	<dataNode name="dn2" dataHost="db2" database="bookstore" />
+	<dataHost name="db2" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM2" url="127.0.0.1:3308" user="root" password="yuhao123">
+			<!-- can have multi read hosts -->
+			<readHost host="hostS2" url="127.0.0.1:3308" user="root" password="yuhao123" />
+		</writeHost>
+	</dataHost>
+
+	<dataNode name="dn3" dataHost="db3" database="bookstore" />
+	<dataHost name="db3" maxCon="1000" minCon="10" balance="0"
+			  writeType="0" dbType="mysql" dbDriver="native" switchType="1"  slaveThreshold="100">
+		<heartbeat>select user()</heartbeat>
+		<!-- can have multi write hosts -->
+		<writeHost host="hostM3" url="127.0.0.1:3309" user="root" password="yuhao123">
+			<!-- can have multi read hosts -->
+			<readHost host="hostS3" url="127.0.0.1:3309" user="root" password="yuhao123" />
+		</writeHost>
+	</dataHost>
+
+</mycat:schema>

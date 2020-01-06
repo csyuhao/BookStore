@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>订单</title>
+
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/order.css" rel="stylesheet">
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+
+    <script src="/static/js/order.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" th:href="@{/usr/index}">网上书店</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right information">
+                <li class="nav-login-title"><a th:href="@{/usr/login}">登录</a></li>
+                <li class="nav-login-registor"><a th:href="@{/usr/register}">注册</a></li>
+                <li><a th:href="@{/usr/cart}"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                <li><a th:href="@{/usr/count}"><span class="glyphicon glyphicon-list-alt"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="divMiddle">
+    <div class="divOrderDetail">
+        <div class="divOrderDetail-all">
+            <div class="divOrderDetail-left">
+                <div class="divOrderDetail-left-imgDiv">
+                    <img src="/static/img/234.PNG" class="divOrderDetail-left-img img-rounded center-block">
+                </div>
+            </div>
+            <div class="divOrderDetail-right">
+                <div class="divOrderDetail-right-title">
+                    林徽因文集：你是那人间四月天（套装共3册)
+                </div>
+                <div class="divOrderDetail-right-authorAndPress">
+                    <div>
+                        作者：刘森
+                    </div>
+                    <div>
+                        出版社：北京理工大学出版社
+                    </div>
+                </div>
+                <div class="divOrderDetail-right-price">
+                    <div>
+                        价格：
+                    </div>
+                    <div>
+                        ￥50.7
+                    </div>
+                    <div>
+                        数量：
+                    </div>
+                    <div>
+                        2
+                    </div>
+                </div>
+
+                <div class="divOrderDetail-right-address">
+                    <div>配送至：</div>
+                    <div>上海市</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script th:inline="javascript">
+    $(function () {
+        //加载用户的信息
+        $.ajax({
+            type: "post",
+            url: "/usr/getLoginCustomer",
+            data: {},
+            dataType: "json",
+            async: false,
+            success: function (data) {
+
+                var customer = data.loginCustomer;
+                if(customer != null){
+                    $(".nav-login-title").remove();
+                    $(".nav-login-registor").remove();
+
+                    $(".information").prepend('<li><a href=\"#\">'+ customer.csuname +'</a></li>');
+                }
+            }
+        });
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuhao.bookstore.mapper.AdminandconsumerMapper">
+  <resultMap id="BaseResultMap" type="com.yuhao.bookstore.entity.Adminandconsumer">
+    <!--@mbg.generated-->
+    <!--@Table adminandconsumer-->
+    <id column="csuTel" jdbcType="VARCHAR" property="csutel" />
+    <id column="adminId" jdbcType="VARCHAR" property="adminid" />
+    <result column="update" jdbcType="VARCHAR" property="update" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    csuTel, adminId, `update`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="map" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from adminandconsumer
+    where csuTel = #{csutel,jdbcType=VARCHAR}
+      and adminId = #{adminid,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="map">
+    <!--@mbg.generated-->
+    delete from adminandconsumer
+    where csuTel = #{csutel,jdbcType=VARCHAR}
+      and adminId = #{adminid,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.yuhao.bookstore.entity.Adminandconsumer">
+    <!--@mbg.generated-->
+    insert into adminandconsumer (csuTel, adminId, `update`
+      )
+    values (#{csutel,jdbcType=VARCHAR}, #{adminid,jdbcType=VARCHAR}, #{update,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.yuhao.bookstore.entity.Adminandconsumer">
+    <!--@mbg.generated-->
+    insert into adminandconsumer
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="csutel != null">
+        csuTel,
+      </if>
+      <if test="adminid != null">
+        adminId,
+      </if>
+      <if test="update != null">
+        `update`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="csutel != null">
+        #{csutel,jdbcType=VARCHAR},
+      </if>
+      <if test="adminid != null">
+        #{adminid,jdbcType=VARCHAR},
+      </if>
+      <if test="update != null">
+        #{update,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yuhao.bookstore.entity.Adminandconsumer">
+    <!--@mbg.generated-->
+    update adminandconsumer
+    <set>
+      <if test="update != null">
+        `update` = #{update,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where csuTel = #{csutel,jdbcType=VARCHAR}
+      and adminId = #{adminid,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yuhao.bookstore.entity.Adminandconsumer">
+    <!--@mbg.generated-->
+    update adminandconsumer
+    set `update` = #{update,jdbcType=VARCHAR}
+    where csuTel = #{csutel,jdbcType=VARCHAR}
+      and adminId = #{adminid,jdbcType=VARCHAR}
+  </update>
+</mapper>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuhao.bookstore.mapper.BookpurchaseMapper">
+  <resultMap id="BaseResultMap" type="com.yuhao.bookstore.entity.Bookpurchase">
+    <!--@mbg.generated-->
+    <!--@Table bookpurchase-->
+    <id column="orderNumber" jdbcType="VARCHAR" property="ordernumber" />
+    <result column="bookId" jdbcType="VARCHAR" property="bookid" />
+    <result column="bookName" jdbcType="VARCHAR" property="bookname" />
+    <result column="csuTel" jdbcType="VARCHAR" property="csutel" />
+    <result column="shopId" jdbcType="VARCHAR" property="shopid" />
+    <result column="paymentType" jdbcType="INTEGER" property="paymenttype" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="totalMoney" jdbcType="FLOAT" property="totalmoney" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="time" jdbcType="VARCHAR" property="time" />
+    <association property="book" javaType="com.yuhao.bookstore.entity.Book">
+      <id column="bookId" property="bookid" />
+      <result column="bookImage" property="bookimage" />
+      <result column="bookPrice" property="bookprice" />
+    </association>
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    orderNumber, bookId, bookName, csuTel, shopId, paymentType, num, totalMoney, `status`, 
+    `time`
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    <!--@mbg.generated-->
+    select 
+    <include refid="Base_Column_List" />
+    from bookpurchase
+    where orderNumber = #{ordernumber,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    <!--@mbg.generated-->
+    delete from bookpurchase
+    where orderNumber = #{ordernumber,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insertSelective" parameterType="com.yuhao.bookstore.entity.Bookpurchase">
+    <!--@mbg.generated-->
+    insert into bookpurchase
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="ordernumber != null">
+        orderNumber,
+      </if>
+      <if test="bookid != null">
+        bookId,
+      </if>
+      <if test="bookname != null">
+        bookName,
+      </if>
+      <if test="csutel != null">
+        csuTel,
+      </if>
+      <if test="shopid != null">
+        shopId,
+      </if>
+      <if test="paymenttype != null">
+        paymentType,
+      </if>
+      <if test="num != null">
+        num,
+      </if>
+      <if test="totalmoney != null">
+        totalMoney,
+      </if>
+      <if test="status != null">
+        `status`,
+      </if>
+      <if test="time != null">
+        `time`,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="ordernumber != null">
+        #{ordernumber,jdbcType=VARCHAR},
+      </if>
+      <if test="bookid != null">
+        #{bookid,jdbcType=VARCHAR},
+      </if>
+      <if test="bookname != null">
+        #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="csutel != null">
+        #{csutel,jdbcType=VARCHAR},
+      </if>
+      <if test="shopid != null">
+        #{shopid,jdbcType=VARCHAR},
+      </if>
+      <if test="paymenttype != null">
+        #{paymenttype,jdbcType=INTEGER},
+      </if>
+      <if test="num != null">
+        #{num,jdbcType=INTEGER},
+      </if>
+      <if test="totalmoney != null">
+        #{totalmoney,jdbcType=FLOAT},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="time != null">
+        #{time,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.yuhao.bookstore.entity.Bookpurchase">
+    <!--@mbg.generated-->
+    update bookpurchase
+    <set>
+      <if test="bookid != null">
+        bookId = #{bookid,jdbcType=VARCHAR},
+      </if>
+      <if test="bookname != null">
+        bookName = #{bookname,jdbcType=VARCHAR},
+      </if>
+      <if test="csutel != null">
+        csuTel = #{csutel,jdbcType=VARCHAR},
+      </if>
+      <if test="shopid != null">
+        shopId = #{shopid,jdbcType=VARCHAR},
+      </if>
+      <if test="paymenttype != null">
+        paymentType = #{paymenttype,jdbcType=INTEGER},
+      </if>
+      <if test="num != null">
+        num = #{num,jdbcType=INTEGER},
+      </if>
+      <if test="totalmoney != null">
+        totalMoney = #{totalmoney,jdbcType=FLOAT},
+      </if>
+      <if test="status != null">
+        `status` = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="time != null">
+        `time` = #{time,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where orderNumber = #{ordernumber,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.yuhao.bookstore.entity.Bookpurchase">
+    <!--@mbg.generated-->
+    update bookpurchase
+    set bookId = #{bookid,jdbcType=VARCHAR},
+      bookName = #{bookname,jdbcType=VARCHAR},
+      csuTel = #{csutel,jdbcType=VARCHAR},
+      shopId = #{shopid,jdbcType=VARCHAR},
+      paymentType = #{paymenttype,jdbcType=INTEGER},
+      num = #{num,jdbcType=INTEGER},
+      totalMoney = #{totalmoney,jdbcType=FLOAT},
+      `status` = #{status,jdbcType=INTEGER},
+      `time` = #{time,jdbcType=VARCHAR}
+    where orderNumber = #{ordernumber,jdbcType=VARCHAR}
+  </update>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-02-->
+  <select id="findAllByShopid" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from bookpurchase
+        where shopId=#{shopid,jdbcType=VARCHAR}
+    </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-04-->
+  <select id="findAllByCsutelAndStatus" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from bookpurchase
+    where csuTel=#{csutel,jdbcType=VARCHAR} and `status`=#{status,jdbcType=INTEGER}
+  </select>
+
+  <select id="findAllByCsutelAndStatusEx" resultMap="BaseResultMap">
+    select
+    bookpurchase.orderNumber, bookpurchase.bookId, bookpurchase.bookName, bookpurchase.csuTel, bookpurchase.shopId, bookpurchase.paymentType,
+    bookpurchase.num, bookpurchase.totalMoney, bookpurchase.`status`, bookpurchase.`time`, book.bookImage, book.bookPrice
+    from bookpurchase
+    inner join book on book.bookId = bookpurchase.bookId
+    where csuTel=#{csutel,jdbcType=VARCHAR} and `status`=#{status,jdbcType=INTEGER}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-05-->
+  <select id="selectAllByBookid" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from bookpurchase
+    where bookId=#{bookid,jdbcType=VARCHAR}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-05-->
+  <select id="selectAllByBookidAndCsutel" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List"/>
+    from bookpurchase
+    where bookId=#{bookid,jdbcType=VARCHAR} and csuTel=#{csutel,jdbcType=VARCHAR} and status=#{status,jdbcType=INTEGER}
+  </select>
+
+<!--auto generated by MybatisCodeHelper on 2020-01-05-->
+  <delete id="deleteByOrdernumber">
+    delete from bookpurchase
+    where orderNumber=#{ordernumber,jdbcType=VARCHAR}
+  </delete>
+
+
+  <select id="selectAllByCsutelAndStatus" resultMap="BaseResultMap">
+    select
+    bookpurchase.orderNumber, bookpurchase.bookId, bookpurchase.bookName, bookpurchase.csuTel, bookpurchase.shopId, bookpurchase.paymentType,
+    bookpurchase.num, bookpurchase.totalMoney, bookpurchase.`status`, bookpurchase.`time`, book.bookImage, book.bookPrice
+    from bookpurchase
+    inner join book on book.bookId = bookpurchase.bookId
+    where csuTel=#{csutel,jdbcType=VARCHAR} and `status`=#{status,jdbcType=INTEGER}
+  </select>
+
+  <select id="findOneByOrdernumberEx" resultMap="BaseResultMap">
+    select
+    bookpurchase.orderNumber, bookpurchase.bookId, bookpurchase.bookName, bookpurchase.csuTel, bookpurchase.shopId, bookpurchase.paymentType,
+    bookpurchase.num, bookpurchase.totalMoney, bookpurchase.`status`, bookpurchase.`time`, book.bookImage, book.bookPrice
+    from bookpurchase
+    inner join book on book.bookId = bookpurchase.bookId
+    where orderNumber=#{ordernumber,jdbcType=VARCHAR}
+  </select>
+
+  <select id="buyBook" resultType="java.lang.Integer">
+    <![CDATA[
+    /*!mycat:sql=SELECT 1 FROM bookpurchase WHERE orderNumber = ${order_number}*/{call `buyBook`(
+        #{book_num, mode=IN, jdbcType=INTEGER},
+        #{order_number, mode=IN, jdbcType=VARCHAR},
+        #{order_time, mode=IN, jdbcType=VARCHAR},
+        @res
+    )};SELECT @res AS res;
+    ]]>
+  </select>
+</mapper>

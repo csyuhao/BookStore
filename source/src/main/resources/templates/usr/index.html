@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <title>网上书店</title>
+    <!--
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    -->
+    <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link th:href="@{/css/index.css}" rel="stylesheet">
+    <!-- Sweet Alert -->
+    <link th:href="@{/css/plugins/sweetalert/sweetalert.css}" rel="stylesheet"/>
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#example-navbar-collapse">
+                <span class="sr-only">切换导航</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" th:href="@{/usr/index}">网上书店</a>
+        </div>
+        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right information">
+                <li class="nav-login-title"><a th:href="@{/usr/login}">登录</a></li>
+                <li class="nav-login-registor"><a th:href="@{/usr/register}">注册</a></li>
+                <li><a th:href="@{/usr/cart}"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                <li><a th:href="@{/usr/count}"><span class="glyphicon glyphicon-list-alt"></span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="divMiddle">
+    <div class="divBookList">
+        <div class="divBook-class" id="divBook-class-computer">
+            <p>
+                <span style="text-align:left;vertical-align: baseline">计算机</span>
+                <span class="nav navbar-nav navbar-right" style="font-size: 15px;text-align:right;vertical-align:bottom">
+                </span>
+            </p>
+
+        </div>
+
+
+        <div class="divBook-class" id="divBook-class-others">
+            其他
+        </div>
+    </div>
+</div>
+
+<script th:src="@{/js/jquery-3.3.1.min.js}"></script>
+<script th:src="@{/js/bootstrap.min.js}"></script>
+
+<script type="text/javascript" th:src="@{/js/index.js}"></script>
+<!-- Sweet alert -->
+<script th:src="@{/js/plugins/sweetalert/sweetalert.min.js}"></script>
+<script th:inline="javascript">
+    var error = [[${error}]];
+    $(document).ready(function () {
+        if(error!=null){
+            swal({
+                title : "温馨提示",
+                text : error
+            });
+        }
+    });
+</script>
+</body>
+</html>
